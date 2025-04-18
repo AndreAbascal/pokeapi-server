@@ -1,0 +1,6 @@
+.env
+dbtables/*
+logs/*
+node_modules
+*.pem
+*.zip
