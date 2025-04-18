@@ -31,8 +31,18 @@ Node.js server providing Pokémon universe data from a local SQLite database (`p
   - Allowing traffic on port `3000`, or
   - Configured to bypass for local API development.
 - Ensure the file `pokeapi.db` is in the root directory.
-- File /etc/hosts or respective hosts file should have domain set for local development
+- File /etc/hosts or respective hosts file should have domain set for local development, if using custom domain instead of IP.
 - It's easier to use physical device for local development server.
+
+---
+
+## ⚙️ Usage
+
+Run the server with the following command:
+
+```bash
+npm start
+```
 
 ---
 
